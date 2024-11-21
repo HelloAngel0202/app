@@ -1,0 +1,32 @@
+name: gtk_flutter
+description: "Get to know Firebase with Flutter"
+
+# Prevent accidental publication
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_ui_auth: ^1.2.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  go_router: ^14.2.7
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/codelab.png
